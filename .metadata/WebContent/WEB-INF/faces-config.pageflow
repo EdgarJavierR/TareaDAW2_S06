@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15070705363670" configfile="/TareaDAW2-Sem06/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Tragamonedas.xhtml" x="139" y="147" id="pf15070708378341" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf15074390338340" path="/Tragamonedas.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ganador.xhtml" x="432" y="147" id="pf15070708378343" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf15074390338340" path="/ganador.xhtml"/>
+  <links id="pf15074390338340" target="pf15070708378343" source="pf15070708378341" outcome="intento"/>
+</pageflow:Pageflow>
